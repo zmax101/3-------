@@ -1,0 +1,38 @@
+@import 'fonts.css';
+
+body {
+    font-family: 'Poppins Regular';
+    color: #616368;
+    font-size: 16px;
+}
+
+ul, li {
+    display: block;
+    padding: 0;
+    margin: 0;
+}
+
+/* Шапка */
+.menu-bar {
+    padding: 50px 0;
+    background: white;
+}
+.menu__item {
+    margin-left: 35px;
+}
+.menu__item a {
+    text-decoration: none;
+    color: #242f51;
+}
+.btn {
+    background: #2500f9;
+    padding: 15px 35px;
+    font-family: 'Poppins Bold';
+    color: white;
+    border-radius: 28px;
+    border: none;
+    text-align: center;
+}
+.btn:hover {
+    color: white;
+}
