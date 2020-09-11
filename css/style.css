@@ -4,6 +4,7 @@ body {
     font-family: 'Poppins Regular';
     color: #616368;
     font-size: 16px;
+    background-color: #f5f7f8;
 }
 
 ul, li {
@@ -220,4 +221,96 @@ ul, li {
 /* Monthly */
 .monthly {
     margin-top: 180px;
+}
+.monthly__text1 {
+    margin-bottom: 80px;
+    margin-top: 40px;
+}
+.monthly__btn {
+    margin-bottom: 100px;
+}
+.price {
+    text-align: center;
+    box-shadow:1px 1px 36px 0px rgba(0,0,0,0.04);
+-webkit-box-shadow:1px 1px 36px 0px rgba(0,0,0,0.04);
+-moz-box-shadow:1px 1px 36px 0px rgba(0,0,0,0.04);
+}
+.price__head {
+    background-image: url(../img/PriceBack.png);
+    background-size: cover;
+    text-align: center;
+}
+.price__price {
+    padding-top: 65px;
+}
+.head__sub {
+    font-size: 60px;
+    color: #242f51;
+    font-family: 'Poppins SemiBold';
+}
+.head__sup {
+    font-size: 18px;
+    color: #999ca5;
+}
+.price__title {
+    font-size: 20px;
+    color: #242f51;
+    font-family: 'Poppins SemiBold';
+}
+.price__suptitle {
+    font-size: 16px;
+    color: #999ca5;
+    padding-bottom: 44px;
+}
+.price__body {
+    color: #999ca5;
+    font-size: 16px;
+    background-color: white;
+    max-width: 350px;
+}
+.price__body ul li {
+    padding-top: 28px;
+    padding-bottom: 12px;
+    text-align: center;
+}
+.price__footer {
+    padding: 40px 0 24px;
+    background-color: white;
+}
+.price__footer button {
+    color: white;
+    background-color: #2500f9;
+    border-radius: 28px;
+    padding: 20px 45px;
+    font-size: 16px;
+    border:none;
+}
+/* test */
+.test {
+    margin-top: 240px;
+}
+.test__suptitle {
+    color: #616368;
+    font-size: 16px;
+    padding-top: 40px;
+}
+.test__star {
+    color: #ffcc00;
+    font-size: 20px;
+    margin-top: 45px;
+    margin-bottom: 25px;
+}
+.testors__title {
+    font-size: 20px;
+    color: #242f51;
+    font-family: 'Poppins SemiBold';
+    margin-bottom: 35px;
+}
+.testors__text {
+    padding-bottom: 30px;
+}
+.ava__title {
+    font-size: 20px;
+    color: #242f51;
+    font-family: 'Poppins SemiBold';
 }
