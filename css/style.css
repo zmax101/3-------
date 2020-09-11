@@ -14,7 +14,7 @@ ul, li {
 
 /* Шапка */
 .menu-bar {
-    padding: 50px 0;
+    padding: 20px 0;
     background: white;
 }
 .menu__item {
@@ -36,3 +36,96 @@ ul, li {
 .btn:hover {
     color: white;
 }
+/* Шапка титульник */
+.header {
+    background-image: url(../img/headerback.png);
+    background-repeat: repeat-x;
+    background-position: bottom;
+}
+.header__suptitle {
+    margin-top: 200px;
+    font-size: 18px;
+    background-color: #e2eaed;
+    border-radius: 17.5px;
+    max-width: 340px;
+    color: #242f51;
+}
+.header__suptitle i {
+    font-size: 27px;
+    color: #feaa25;
+    margin-right: 10px;
+}
+.header__title {
+    color: #242f51;
+    font-size: 60px;
+    font-family: 'Poppins SemiBold';
+}
+.header__subtitle {
+    font-size: 18px;
+    color: #616368;
+}
+.header__subbtn {
+    font-size: 16px;
+    color: #2500f9;
+}
+.header__subbtn a {
+    margin-left: 30px;
+}
+/* apps */
+.apps__suptitle {
+    padding-bottom: 40px;
+    padding-top: 115px;
+    color: #242f51;
+    font-size: 16px;
+    margin: 0 auto;
+}
+.apps__img img{
+    padding: 0 35px;
+}
+/* future */
+.future__awesome {
+    margin-top: 150px;
+    transition: .3s;
+    background: url(../img/BackgroundFu.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+.future__awesome:hover {
+    content: url(../img/Phone2.png);
+}
+.future__title {
+    margin-top: 200px;
+    font-size: 36px;
+    color: #242f51;
+    font-family: 'Poppins SemiBold';
+}
+.future__img {
+    margin-top: 70px;
+}
+.future__title1 {
+    margin-top: 60px;
+    font-size: 20px;
+    color: #f55767;
+    font-family: 'Poppins SemiBold';
+    width: 100%;
+}
+.future__text1 {
+    font-size: 16px;
+    color: #616368;
+    width: 100%;
+}
+.future__title2 {
+    margin-top: 60px;
+    font-size: 20px;
+    color: #2563ff;
+    font-family: 'Poppins SemiBold';
+    width: 100%;
+}
+.future__title3 {
+    margin-top: 60px;
+    font-size: 20px;
+    color: #40975f;
+    font-family: 'Poppins SemiBold';
+    width: 100%;
+}
+/* smart */
