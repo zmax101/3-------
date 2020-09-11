@@ -197,3 +197,27 @@ ul, li {
     color: #242f51;
     font-family: 'Poppins SemiBold';
 }
+/* ultimate */
+.ultimate {
+    margin-top: 120px;
+    background: url(../img/UlBack.png);
+    background-size: cover;
+}
+.ultimate h5 {
+    margin-bottom: 30px;
+}
+.ultimate p {
+    margin-bottom: 60px;
+}
+.ultimate h3 {
+    margin-top: 35px;
+}
+.ul__phone {
+    position: absolute;
+    margin-left: 150px;
+    margin-top: 100px;
+}
+/* Monthly */
+.monthly {
+    margin-top: 180px;
+}
