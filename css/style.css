@@ -134,11 +134,66 @@ ul, li {
     margin-top: 100px;
 }
 .smart__title {
-    font-size: 40px;
+    font-size: 36px;
     color: #242f51;
     font-family: 'Poppins SemiBold';
+}
+.smart__content {
+    margin-top: 115px;
+}
+
+.smart__content img {
+    margin-bottom: 30px;
 }
 .smart__text {
     font-size: 16px;
     color: #616368;
+}
+.smart__title1 {
+    font-size: 20px;
+    color: #f55767;
+    font-family: 'Poppins SemiBold';
+    width: 100%;
+}
+.smart__text {
+    font-size: 16px;
+    color: #616368;
+    width: 100%;
+}
+.smart__title2 {
+    font-size: 20px;
+    color: #2563ff;
+    font-family: 'Poppins SemiBold';
+    width: 100%;
+}
+.smart__title3 {
+    font-size: 20px;
+    color: #40975f;
+    font-family: 'Poppins SemiBold';
+    width: 100%;
+}
+/* designed */
+.designed {
+    margin-top: 100px;
+}
+.designed__content {
+    margin-left: 115px;
+}
+.designed p {
+    padding: 30px 0 30px;
+}
+/* why */
+.why {
+    margin-top: 200px;
+}
+.why h5 {
+    margin-bottom: 40px;
+}
+.why p {
+    margin-bottom: 80px;
+}
+.why__title {
+    font-size: 20px;
+    color: #242f51;
+    font-family: 'Poppins SemiBold';
 }
