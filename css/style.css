@@ -82,46 +82,46 @@ ul, li {
 .apps__img img{
     padding: 0 35px;
 }
-/* future */
-.future__awesome {
+/* features */
+.features__awesome {
     margin-top: 150px;
     transition: .3s;
     background: url(../img/BackgroundFu.png);
     background-repeat: no-repeat;
     background-size: 100%;
 }
-.future__awesome:hover {
+.features__awesome:hover {
     content: url(../img/Phone2.png);
 }
-.future__title {
+.features__title {
     margin-top: 200px;
     font-size: 36px;
     color: #242f51;
     font-family: 'Poppins SemiBold';
 }
-.future__img {
+.features__img {
     margin-top: 70px;
 }
-.future__title1 {
+.features__title1 {
     margin-top: 60px;
     font-size: 20px;
     color: #f55767;
     font-family: 'Poppins SemiBold';
     width: 100%;
 }
-.future__text1 {
+.features__text1 {
     font-size: 16px;
     color: #616368;
     width: 100%;
 }
-.future__title2 {
+.features__title2 {
     margin-top: 60px;
     font-size: 20px;
     color: #2563ff;
     font-family: 'Poppins SemiBold';
     width: 100%;
 }
-.future__title3 {
+.features__title3 {
     margin-top: 60px;
     font-size: 20px;
     color: #40975f;
