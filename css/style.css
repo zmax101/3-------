@@ -7,7 +7,8 @@ body {
     background-color: #f5f7f8;
 }
 
-ul, li {
+ul,
+li {
     display: block;
     padding: 0;
     margin: 0;
@@ -18,13 +19,16 @@ ul, li {
     padding: 20px 0;
     background: white;
 }
+
 .menu__item {
     margin-left: 35px;
 }
+
 .menu__item a {
     text-decoration: none;
     color: #242f51;
 }
+
 .btn {
     background: #2500f9;
     padding: 15px 35px;
@@ -34,15 +38,19 @@ ul, li {
     border: none;
     text-align: center;
 }
+
 .btn:hover {
     color: white;
 }
+
 /* Шапка титульник */
 .header {
     background-image: url(../img/headerback.png);
     background-repeat: repeat-x;
     background-position: bottom;
+    min-height: 90vh;
 }
+
 .header__suptitle {
     margin-top: 200px;
     font-size: 18px;
@@ -51,27 +59,33 @@ ul, li {
     max-width: 340px;
     color: #242f51;
 }
+
 .header__suptitle i {
     font-size: 27px;
     color: #feaa25;
     margin-right: 10px;
 }
+
 .header__title {
     color: #242f51;
     font-size: 60px;
     font-family: 'Poppins SemiBold';
 }
+
 .header__subtitle {
     font-size: 18px;
     color: #616368;
 }
+
 .header__subbtn {
     font-size: 16px;
     color: #2500f9;
 }
+
 .header__subbtn a {
     margin-left: 30px;
 }
+
 /* apps */
 .apps__suptitle {
     padding-bottom: 40px;
@@ -80,9 +94,11 @@ ul, li {
     font-size: 16px;
     margin: 0 auto;
 }
-.apps__img img{
+
+.apps__img img {
     padding: 0 35px;
 }
+
 /* features */
 .features__awesome {
     margin-top: 150px;
@@ -90,20 +106,24 @@ ul, li {
     background-repeat: no-repeat;
     background-size: 100%;
     height: 800px;
-    transition: .5s;
+    transition: .7s;
 }
+
 .features__awesome:hover {
     content: url(../img/Phone2.png);
 }
+
 .features__title {
     margin-top: 200px;
     font-size: 36px;
     color: #242f51;
     font-family: 'Poppins SemiBold';
 }
+
 .features__img {
     margin-top: 70px;
 }
+
 .features__title1 {
     margin-top: 60px;
     font-size: 20px;
@@ -111,11 +131,13 @@ ul, li {
     font-family: 'Poppins SemiBold';
     width: 100%;
 }
+
 .features__text1 {
     font-size: 16px;
     color: #616368;
     width: 100%;
 }
+
 .features__title2 {
     margin-top: 60px;
     font-size: 20px;
@@ -123,6 +145,7 @@ ul, li {
     font-family: 'Poppins SemiBold';
     width: 100%;
 }
+
 .features__title3 {
     margin-top: 60px;
     font-size: 20px;
@@ -130,15 +153,18 @@ ul, li {
     font-family: 'Poppins SemiBold';
     width: 100%;
 }
+
 /* smart */
 .smart {
     margin-top: 100px;
 }
+
 .smart__title {
     font-size: 36px;
     color: #242f51;
     font-family: 'Poppins SemiBold';
 }
+
 .smart__content {
     margin-top: 115px;
 }
@@ -146,171 +172,328 @@ ul, li {
 .smart__content img {
     margin-bottom: 30px;
 }
+
 .smart__text {
     font-size: 16px;
     color: #616368;
 }
+
 .smart__title1 {
     font-size: 20px;
     color: #f55767;
     font-family: 'Poppins SemiBold';
     width: 100%;
 }
+
 .smart__text {
     font-size: 16px;
     color: #616368;
     width: 100%;
 }
+
 .smart__title2 {
     font-size: 20px;
     color: #2563ff;
     font-family: 'Poppins SemiBold';
     width: 100%;
 }
+
 .smart__title3 {
     font-size: 20px;
     color: #40975f;
     font-family: 'Poppins SemiBold';
     width: 100%;
 }
+
 /* designed */
 .designed {
     margin-top: 100px;
 }
+
 .designed__content {
     margin-left: 115px;
 }
+
 .designed p {
     padding: 30px 0 30px;
 }
+
 /* why */
 .why {
     margin-top: 200px;
 }
+
 .why h5 {
     margin-bottom: 40px;
 }
+
 .why p {
     margin-bottom: 80px;
 }
+
 .why__title {
     font-size: 20px;
     color: #242f51;
     font-family: 'Poppins SemiBold';
 }
+
 /* ultimate */
 .ultimate {
     margin-top: 120px;
     background: url(../img/UlBack.png);
     background-size: cover;
 }
+
 .ultimate h5 {
     margin-bottom: 30px;
 }
+
 .ultimate p {
     margin-bottom: 60px;
 }
+
 .ultimate h3 {
     margin-top: 35px;
 }
+
 .ul__phone {
     position: absolute;
     margin-left: 150px;
     margin-top: 100px;
 }
+
 /* Monthly */
 .monthly {
     margin-top: 180px;
 }
+
 .monthly__text1 {
     margin-bottom: 80px;
     margin-top: 40px;
 }
+
 .monthly__btn {
     margin-bottom: 100px;
 }
+
 .price {
     text-align: center;
-    box-shadow:1px 1px 36px 0px rgba(0,0,0,0.04);
--webkit-box-shadow:1px 1px 36px 0px rgba(0,0,0,0.04);
--moz-box-shadow:1px 1px 36px 0px rgba(0,0,0,0.04);
+    box-shadow: 1px 1px 36px 0px rgba(0, 0, 0, 0.04);
+    -webkit-box-shadow: 1px 1px 36px 0px rgba(0, 0, 0, 0.04);
+    -moz-box-shadow: 1px 1px 36px 0px rgba(0, 0, 0, 0.04);
 }
+
 .price__head {
     background-image: url(../img/PriceBack.png);
     background-size: cover;
     text-align: center;
 }
+
 .price__price {
     padding-top: 65px;
 }
+
 .head__sub {
     font-size: 60px;
     color: #242f51;
     font-family: 'Poppins SemiBold';
 }
+
 .head__sup {
     font-size: 18px;
     color: #999ca5;
 }
+
 .price__title {
     font-size: 20px;
     color: #242f51;
     font-family: 'Poppins SemiBold';
 }
+
 .price__suptitle {
     font-size: 16px;
     color: #999ca5;
     padding-bottom: 44px;
 }
+
 .price__body {
     color: #999ca5;
     font-size: 16px;
     background-color: white;
     max-width: 350px;
 }
+
 .price__body ul li {
     padding-top: 28px;
     padding-bottom: 12px;
     text-align: center;
 }
+
 .price__footer {
     padding: 40px 0 24px;
     background-color: white;
 }
+
 .price__footer button {
     color: white;
     background-color: #2500f9;
     border-radius: 28px;
     padding: 20px 45px;
     font-size: 16px;
-    border:none;
+    border: none;
 }
+
 /* test */
 .test {
     margin-top: 240px;
+    background: url(../img/2000px-World_map_\(blue_dots\).svg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    transition: .7s;
+    background-size: contain;
 }
+
+.test:hover {
+    background: url(../img/People\ images.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: contain;
+}
+.test h5 {
+    margin-top: 30px;
+}
+
 .test__suptitle {
     color: #616368;
     font-size: 16px;
     padding-top: 40px;
 }
+
 .test__star {
     color: #ffcc00;
     font-size: 20px;
     margin-top: 45px;
     margin-bottom: 25px;
 }
+
 .testors__title {
     font-size: 20px;
     color: #242f51;
     font-family: 'Poppins SemiBold';
     margin-bottom: 35px;
 }
+
 .testors__text {
     padding-bottom: 30px;
+}
+.ava {
+    margin-bottom: 30px;
 }
 .ava__title {
     font-size: 20px;
     color: #242f51;
     font-family: 'Poppins SemiBold';
 }
+
+.test__content {
+    transition: .7s;
+    background-color: white;
+}
+
+.test__content:hover {
+    -webkit-box-shadow: 0px 0px 17px 0px rgba(172, 175, 176, 0.36);
+    -moz-box-shadow: 0px 0px 17px 0px rgba(172, 175, 176, 0.36);
+    box-shadow: 0px 0px 17px 0px rgba(172, 175, 176, 0.36);
+    -webkit-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
+}
+/* FAQ */
+.faq {
+    margin-top: 200px;
+}
+.accordion {
+    background-color: #eee;
+    color: #444;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    text-align: left;
+    border: none;
+    outline: none;
+    transition: 0.4s;
+  }
+  .active, .accordion:hover {
+    background-color: #ccc;
+  }
+  .panel {
+    margin-bottom: 10px;
+    padding: 0 18px;
+    background-color: white;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+  }
+  .accordion:after {
+    content: '\02795';
+    font-size: 13px;
+    color: #777;
+    float: right;
+    margin-left: 5px;
+  }
+  
+  .active:after {
+    content: "\2796";
+  }
+
+  /* download */
+  .download {
+      margin-top: 115px;
+      background: url(../img/downloadBack.png);
+      background-position: right;
+      background-repeat: no-repeat;
+  }
+  .download__title {
+      color: #242f51;
+      font-size: 48px;
+      font-family: 'Poppins SemiBold';
+      margin-bottom: 44px;
+  }
+  .download__text {
+      font-size: 16px;
+      margin-bottom: 50px;
+  }
+  .download img {
+      margin-right: 25px;
+      margin-bottom: 100px;
+  }
+  /* footer */
+  .footer {
+      background: #09142e;
+  }
+  .footer img {
+      margin-top: 100px;
+      margin-bottom: 60px;
+  }
+  .footer a{
+      margin-right: 35px;
+      text-transform: none;
+      color: white;
+      font-size: 16px;
+  }
+  .footer p {
+      font-size: 27px;
+      color: #273043;
+      margin-top: 60px;
+      margin-right: 22px;
+      margin-bottom: 100px;
+      transition: .3s;
+  }
+  .footer p:hover {
+      color: white;
+  }
+  .footer__cop {
+      font-size: 14px;
+      color: rgba(255, 255, 255, .21);
+      padding-bottom: 130px;
+  }
